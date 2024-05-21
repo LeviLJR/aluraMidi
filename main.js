@@ -9,7 +9,7 @@ function tocaSom(index) {
   // document.querySelector(`#som_${listaDeTeclas[index].classList[1]}`).play();
 
   const elemento = document.querySelectorAll("audio")[index];
-  if (elemento != null) {
+  if (elemento) {
     elemento.play();
     console.log(elemento)
   }
